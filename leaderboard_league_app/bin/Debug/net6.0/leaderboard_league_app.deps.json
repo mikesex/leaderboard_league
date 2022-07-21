@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "leaderboard_league_app/1.0.0": {
+        "runtime": {
+          "leaderboard_league_app.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "leaderboard_league_app/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
