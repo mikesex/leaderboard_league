@@ -14,10 +14,6 @@ C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.AspNet
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Build.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Build.Tasks.Core.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -65,7 +61,6 @@ C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\NuGet.Packaging.
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\NuGet.Versioning.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -74,7 +69,6 @@ C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Compositi
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Resources.Extensions.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Runtime.Caching.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -241,14 +235,7 @@ C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win-arm
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Johnb\source\repos\leaderboard_league\obj\Debug\net6.0\leaderboard_league_app.csproj.AssemblyReference.cache
 C:\Users\Johnb\source\repos\leaderboard_league\obj\Debug\net6.0\leaderboard_league_app.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Johnb\source\repos\leaderboard_league\obj\Debug\net6.0\leaderboard_league_app.AssemblyInfoInputs.cache
@@ -269,3 +256,15 @@ C:\Users\Johnb\source\repos\leaderboard_league\obj\Debug\net6.0\refint\leaderboa
 C:\Users\Johnb\source\repos\leaderboard_league\obj\Debug\net6.0\leaderboard_league_app.pdb
 C:\Users\Johnb\source\repos\leaderboard_league\obj\Debug\net6.0\leaderboard_league_app.genruntimeconfig.cache
 C:\Users\Johnb\source\repos\leaderboard_league\obj\Debug\net6.0\ref\leaderboard_league_app.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Johnb\source\repos\leaderboard_league\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
