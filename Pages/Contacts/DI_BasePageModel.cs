@@ -1,9 +1,9 @@
-﻿using ContactManager.Data;
+﻿using leaderboard_league_app.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ContactManager.Pages.Contacts
+namespace leaderboard_league_app.Pages.Contacts
 {
     public class DI_BasePageModel : PageModel
     {

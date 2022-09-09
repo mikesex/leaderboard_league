@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ContactManager.Data;
+using leaderboard_league_app.Data;
 using Microsoft.AspNetCore.Authorization;
-using ContactManager.Authorization;
+using leaderboard_league_app.Authorization;
 using leaderboard_league_app.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,7 +35,7 @@ builder.Services.AddSingleton<IAuthorizationHandler,
                       ContactAdministratorsAuthorizationHandler>();
 
 builder.Services.AddSingleton<IAuthorizationHandler,
-                      ContactManagerAuthorizationHandler>();
+                      leaderboard_league_appAuthorizationHandler>();
 
 var app = builder.Build();
 

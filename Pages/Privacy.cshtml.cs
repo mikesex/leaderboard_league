@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ContactManager.Pages;
+namespace leaderboard_league_app.Pages;
 
 [AllowAnonymous]
 public class PrivacyModel : PageModel

@@ -1,11 +1,11 @@
-using ContactManager.Authorization;
-using ContactManager.Data;
-using ContactManager.Models;
+using leaderboard_league_app.Authorization;
+using leaderboard_league_app.Data;
+using leaderboard_league_app.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace ContactManager.Pages.Contacts
+namespace leaderboard_league_app.Pages.Contacts
 {
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     #region snippet
@@ -26,8 +26,7 @@ namespace ContactManager.Pages.Contacts
             var contacts = from c in Context.Contact
                            select c;
 
-            var isAuthorized = User.IsInRole(Constants.ContactManagersRole) ||
-                               User.IsInRole(Constants.ContactAdministratorsRole);
+            var isAuthorized = User.IsInRole(Constants.ContactAdministratorsRole);
 
             var currentUserId = UserManager.GetUserId(User);
 
