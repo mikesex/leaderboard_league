@@ -1,5 +1,5 @@
 @page
-@model ContactManager.Pages.Contacts.EditModel
+@model leaderboard_league_app.Pages.Contacts.EditModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -18,26 +18,6 @@
                 <label asp-for="Contact.Name" class="control-label"></label>
                 <input asp-for="Contact.Name" class="form-control" />
                 <span asp-validation-for="Contact.Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Address" class="control-label"></label>
-                <input asp-for="Contact.Address" class="form-control" />
-                <span asp-validation-for="Contact.Address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.City" class="control-label"></label>
-                <input asp-for="Contact.City" class="form-control" />
-                <span asp-validation-for="Contact.City" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.State" class="control-label"></label>
-                <input asp-for="Contact.State" class="form-control" />
-                <span asp-validation-for="Contact.State" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Zip" class="control-label"></label>
-                <input asp-for="Contact.Zip" class="form-control" />
-                <span asp-validation-for="Contact.Zip" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Contact.Email" class="control-label"></label>

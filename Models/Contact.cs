@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ContactManager.Models
+namespace leaderboard_league_app.Models
 {
     public class Contact
     {
@@ -8,12 +8,8 @@ namespace ContactManager.Models
         // user ID from AspNetUser table.
         public string? OwnerID { get; set; }
         public string? Name { get; set; }
-        public string? Address { get; set; }
-        public string? City { get; set; }
-        public string? State { get; set; }
-        public string? Zip { get; set; }
-        [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
+        public virtual List<Attempt> Attempt { get; set; }  
         public ContactStatus Status { get; set; }
     }
 

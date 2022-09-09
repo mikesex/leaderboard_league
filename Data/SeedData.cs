@@ -1,12 +1,12 @@
-﻿using ContactManager.Authorization;
-using ContactManager.Models;
+﻿using leaderboard_league_app.Authorization;
+using leaderboard_league_app.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 
 // dotnet aspnet-codegenerator razorpage -m Contact -dc ApplicationDbContext -udl -outDir Pages\Contacts --referenceScriptLibraries
 
-namespace ContactManager.Data
+namespace leaderboard_league_app.Data
 {
     public static class SeedData
     {
@@ -101,10 +101,6 @@ namespace ContactManager.Data
                 new Contact
                 {
                     Name = "Cawood",
-                    Address = "1 Test Street",
-                    City = "Test",
-                    State = "Test",
-                    Zip = "11111",
                     Email = "cawood@example.com",
                     Status = ContactStatus.Approved,
                     OwnerID = adminID
@@ -112,10 +108,6 @@ namespace ContactManager.Data
                 new Contact
                 {
                     Name = "Mike",
-                    Address = "2 Test Street",
-                    City = "Test",
-                    State = "Test",
-                    Zip = "11111",
                     Email = "mike@example.com",
                     Status = ContactStatus.Approved,
                     OwnerID = adminID

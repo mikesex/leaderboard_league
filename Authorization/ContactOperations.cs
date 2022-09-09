@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization.Infrastructure;
 
-namespace ContactManager.Authorization
+namespace leaderboard_league_app.Authorization
 {
     public static class ContactOperations
     {
@@ -29,6 +29,6 @@ namespace ContactManager.Authorization
 
         public static readonly string ContactAdministratorsRole = 
                                                               "ContactAdministrators";
-        public static readonly string ContactManagersRole = "ContactManagers";
+        public static readonly string leaderboard_league_appsRole = "leaderboard_league_apps";
     }
 }

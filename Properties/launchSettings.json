@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "ContactManager": {
+    "leaderboard_league_app": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

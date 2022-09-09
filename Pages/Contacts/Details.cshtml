@@ -1,5 +1,5 @@
 @page
-@model ContactManager.Pages.Contacts.DetailsModel
+@model leaderboard_league_app.Pages.Contacts.DetailsModel
 
 @{
     ViewData["Title"] = "Details";
@@ -16,30 +16,6 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Contact.Name)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Address)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Address)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.City)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.City)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.State)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.State)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Zip)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Zip)
         </dd>
         <!-- <snippet> -->
         @*Preceding markup omitted for brevity.*@

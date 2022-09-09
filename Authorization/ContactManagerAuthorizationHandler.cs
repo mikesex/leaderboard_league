@@ -1,12 +1,12 @@
 ﻿using System.Threading.Tasks;
-using ContactManager.Models;
+using leaderboard_league_app.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 
-namespace ContactManager.Authorization
+namespace leaderboard_league_app.Authorization
 {
-    public class ContactManagerAuthorizationHandler :
+    public class leaderboard_league_appAuthorizationHandler :
         AuthorizationHandler<OperationAuthorizationRequirement, Contact>
     {
         protected override Task
@@ -27,7 +27,7 @@ namespace ContactManager.Authorization
             }
 
             // Managers can approve or reject.
-            if (context.User.IsInRole(Constants.ContactManagersRole))
+            if (context.User.IsInRole(Constants.leaderboard_league_appsRole))
             {
                 context.Succeed(requirement);
             }
